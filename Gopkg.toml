@@ -1,0 +1,51 @@
+[[constraint]]
+  name = "github.com/hashicorp/terraform"
+  version = "0.11.8"
+
+[[override]]
+  branch = "master"
+  name = "github.com/apparentlymart/go-cidr"
+
+[[override]]
+  branch = "master"
+  name = "github.com/hashicorp/go-getter"
+
+[[override]]
+  branch = "master"
+  name = "github.com/hashicorp/go-multierror"
+
+[[override]]
+  branch = "master"
+  name = "github.com/hashicorp/go-uuid"
+
+[[override]]
+  branch = "master"
+  name = "github.com/hashicorp/go-version"
+
+[[override]]
+  branch = "master"
+  name = "github.com/hashicorp/hil"
+
+[[override]]
+  branch = "master"
+  name = "github.com/mitchellh/copystructure"
+
+[[override]]
+  branch = "master"
+  name = "github.com/mitchellh/go-homedir"
+
+[[override]]
+  branch = "master"
+  name = "github.com/mitchellh/hashstructure"
+
+[[override]]
+  branch = "master"
+  name = "github.com/mitchellh/reflectwalk"
+
+[[override]]
+  branch = "master"
+  name = "golang.org/x/net"
+
+[prune]
+  go-tests = true
+  unused-packages = true
